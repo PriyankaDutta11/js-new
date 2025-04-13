@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume form</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <form action="" method="post" id="applicationForm">
+    <h2>Job Application</h2>
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name">
+    <br/>
+    <br/>
+    <label for="email">Email:</label>
+    <input type="text" name="email" id="email">
+    <br/>
+    <br/>
+    <label for="phoneNO">Phone:</label>
+    <input type="tel" name="phoneNO" id="phoneNO">
+    <br/>
+    <br/>
+    <!-- <label for="fileselection">Resume:</label>
+    <br/> -->
+    <!-- <input type="file" name="fileselection" id="fileselection"> -->
+    <br/>
+    <br/>
+    <label for="counter">Experience(years):</label>
+    <input type="number" name="counter" id="counter" min="0" max="50">
+    <fieldset>
+        <legend>Skills:</legend>
+        <label for="checkbox1">HTML</label>
+        <input type="checkbox1" name="checkbox1" id="checkbox1">
+        <br/>
+        <br/>
+        <label for="checkbox2">CSS</label>
+        <input type="checkbox2" name="checkbox2" id="checkbox2">
+        <br/>
+        <br/>
+        <label for="checkbox3">Java Script</label>
+        <input type="checkbox3" name="checkbox3" id="checkbox3">
+        <br/>
+        <br/>
+        <input type="button" onclick="registration()" value="Click"></input>
+         
+
+
+    </fieldset>
+    <div id="dataDiv"></div>
+</form>
+<script src="./assets/js/index.js"></script>
+
+
+
+
+
+</body>
+</html>
